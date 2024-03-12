@@ -1,0 +1,194 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Estilos del encabezado */
+header {
+    background-color: #b1cc74;
+    color: #fff;
+    padding: 10px 0;
+}
+
+header nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#left-items {
+    display: flex;
+    align-items: center;
+}
+
+#left-items img{
+    width: 200px;
+    padding: 0;
+    margin: 0;
+}
+
+#right-items {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+#right-items li {
+    display: inline;
+    margin-right: 20px;
+}
+
+
+#right-items li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+#right-items li:last-child {
+    margin-right: 0;
+}
+
+header nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+#left-items li a {
+    text-decoration: none;
+    color: inherit;
+}
+
+#right-items li a {
+    text-decoration: none;
+    color: #fff;
+}
+/* Estilos del héroe */
+#hero {
+    background-color: white;
+    text-align: center;
+    padding: 100px 0;
+    color: black;
+}
+
+#hero .hero-content {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+#hero img {
+    width: 500px;
+}
+
+#hero h2 {
+    margin-bottom: 20px;
+}
+
+#hero .btn {
+    display: inline-block;
+    background-color: #f44336;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+#hero .btn:hover {
+    background-color: #d32f2f;
+}
+
+/* Estilos de las características destacadas */
+#features {
+    padding: 50px 0;
+}
+
+.feature-item {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.feature-item img {
+    max-width: 50%;
+    height: auto;
+    border: 3px solid #ccc;
+    border-radius: 5px;
+    transition: border-color 0.3s ease;
+}
+
+.feature-item img:hover {
+    border-color: black;
+    transform: scale(1.1);
+}
+
+/* Estilos de los testimonios */
+#testimonials {
+    background-color: #b1cc74;
+    padding: 50px 0;
+}
+
+.testimonial {
+    text-align: center;
+    margin-bottom: 40px;
+    border: 3px solid #ccc;
+    border-radius: 5px;
+    padding: 20px;
+    transition: all 0.3s ease;
+}
+
+.testimonial:hover {
+    border-color: black;
+}
+
+.testimonial img {
+    width: 350px;
+    height: 220px;
+    border-radius: 5px; /* Conservamos bordes cuadrados */
+    margin-bottom: 20px;
+    transition: all 0.3s ease;
+}
+
+.testimonial img:hover {
+    transform: scale(1.1);
+}
+
+.testimonial blockquote {
+    font-style: italic;
+    margin-bottom: 20px;
+}
+
+.testimonial cite {
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+
+/* Estilos del pie de página */
+footer {
+    background-color: #545f66;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
+
+.social-link img {
+    display: inline;
+    width: 60px;
+    height: 60px;
+    transition: transform 0.3s ease;
+    justify-content: center;
+}
+
+.social-link img:hover {
+    transform: scale(1.2);
+}
+
+.vehicle img {
+    width: 50%;
+}
